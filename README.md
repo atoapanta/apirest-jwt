@@ -32,14 +32,14 @@ Esta API proporciona operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre
 
 # REGISTRO DE USUARIO
 
-- URL: /register
+- URL: /user/register
   - Método: POST
   - Cuerpo de la solicitud: { "email": "email_de_usuario", "password": "contraseña" }
   - Respuesta: { "message": "Successful registration!" }
 
 # LOGIN DE USUARIO
 
-- URL: /login
+- URL: /user/login
 - Método: POST
 - Cuerpo de la solicitud: { "email": "email_de_usuario", "password": "contraseña" }
 - Respuesta: { "accessToken": "token_de_acceso" }
